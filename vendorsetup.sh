@@ -18,3 +18,11 @@
 
 add_lunch_combo omni_TB7104F-userdebug
 add_lunch_combo omni_TB7104F-eng
+export FOX_USE_BASH_SHELL="0"
+
+export FOX_USE_LZMA_COMPRESSION="1"
+
+export FOX_USE_NANO_EDITOR="0"
+
+
+
