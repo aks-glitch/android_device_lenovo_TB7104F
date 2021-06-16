@@ -67,12 +67,13 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
-TW_EXTRA_LANGUAGES := true
-TW_SCREEN_BLANK_ON_BOOT := true
+TW_EXTRA_LANGUAGES := false
+TW_SCREEN_BLANK_ON_BOOT := false
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_ROTATION :=270
-
+TW_EXCLUDE_BASH :=true
+TW_EXCLUDE_NANO :=true
 
 # LZMA compression for recovery's & kernel ramdisk
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/custombootimg.mk
