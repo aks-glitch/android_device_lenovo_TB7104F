@@ -74,6 +74,9 @@ TW_USE_TOOLBOX := true
 TW_ROTATION :=270
 TW_EXCLUDE_BASH :=true
 TW_EXCLUDE_NANO :=true
+TW_ECCLUDE_TWRPAPP :=true
+
+SHRP_LITE := true
 
 # LZMA compression for recovery's & kernel ramdisk
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/custombootimg.mk
