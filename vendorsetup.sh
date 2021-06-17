@@ -15,7 +15,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
+export FOX_USE_LZMA_COMPRESSION=1
+export FOX_REMOVE_AAPT=1
+export FOX_REMOVE_BASH=1
+export FOX_EXTREME_SIZE_REDUCTION=1
 add_lunch_combo omni_TB7104F-userdebug
 add_lunch_combo omni_TB7104F-eng
 
