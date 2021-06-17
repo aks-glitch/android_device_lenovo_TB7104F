@@ -25,8 +25,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/lenovo/TB7104F/device.mk)
 
 # Inherit some common Omni stuff.
-#$(call inherit-product, vendor/omni/config/common.mk)
-#$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := TB7104F
