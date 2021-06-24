@@ -77,7 +77,7 @@ TW_EXCLUDE_NANO :=true
 TW_ECCLUDE_TWRPAPP :=true
 LZMA_RAMDISK_TARGETS := recovery
 
-TW_FORCE_USE_BUSYBOX := true
+#TW_FORCE_USE_BUSYBOX := true
 
 
 # LZMA compression for recovery's & kernel ramdisk
